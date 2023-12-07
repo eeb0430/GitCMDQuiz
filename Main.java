@@ -10,11 +10,8 @@ public class Main {
             return sum;
         };
 
-        Scanner reader = new Scanner(System.in);
-        int x = reader.nextInt();
-        int y = reader.nextInt();
 
-        System.out.println(calculator.calculate(x, y));
+        System.out.println(calculator.calculate(Integer.parseInt(args[0]), Integer.parseInt(args[1])));
 
     }
 
